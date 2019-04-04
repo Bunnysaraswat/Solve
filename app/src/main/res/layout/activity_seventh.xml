@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p"
+    tools:context="com.example.hp.solve.SeventhActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"
+            app:srcCompat="@drawable/s" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Subject"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#55e2b8"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester-I/SemesterII"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editTex"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Computer programming"
+            android:onClick="onedrive"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:onClick="onedrive"
+            android:text="Software foundation and programming(with c++)"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Object oriented progamming(C++)"
+            android:onClick="onedrive"
+            android:textColor="#ffffff"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester-III"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Data Structure"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="App Developement"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Object Oriented programming "
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester-IV"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Database Management Systems"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Discrete Structures"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Computer Architecture and organization"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Information Management"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester-v"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Operating System"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Computer Networks"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Web Technology"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="System Analysis and Design"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Theory of comutation"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Management information System"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester-VI"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Distributed System"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Compiler Design"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Software Enigeering"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Foundation of computer Graphics"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Information security"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester-VII"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Dataware housing and DataMinig"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Mobile computig"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Artificial Intelligence"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Wireless Network"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Digital image Processing"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p"
+    tools:context="com.example.hp.solve.E8thActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"
+            app:srcCompat="@drawable/s" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Subject"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#55e2b8"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester-I/SemesterII"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Engineerind Drawing"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester-III"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Engineering Geology and Construct Material"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Structure Analysis -I"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Fluid Mechanics "
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Sereving "
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semester-IV"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Structure Analysis-II"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Environmental Engineering"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Buldig Planning and Drawing"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Concrete Technology"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semester-v"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Urban and reginal planning"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Enviornmental Engineering"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Water Resources Engineering"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Transportation Engineering-I"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Irigation Engineering"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semester-VI"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Design of Rcc structure"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Geotechnical Engineering -II "
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Estimating Costing and Evaluation Engineering"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Transportation Engineering"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Rural Water supply and sanitation"
+            android:textColor="#ffffff"
+            android:textSize="25sp"/>
+        <CheckBox
+            android:id="@+id/checkBox50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Earthquace Engineering"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semester-VII"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ea6d0e"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkBox45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Construct project Management"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Geo Information"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Construction Equipment Method"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Infrastructure planning and "
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkBox49"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:button="@android:drawable/alert_light_frame"
+            android:duplicateParentState="false"
+            android:text="Ground improvmet technology"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>

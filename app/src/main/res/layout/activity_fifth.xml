@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p"
+    tools:context="com.example.hp.solve.FifthActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textAlignment="center"
+       android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/s" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Branch"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="#55e2b8"
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:button="@android:drawable/alert_light_frame"
+        android:duplicateParentState="false"
+        android:text="Computer science"
+        android:onClick="next4page"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+
+        />
+
+       <CheckBox
+           android:id="@+id/checkBox2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/editText7"
+           android:layout_alignStart="@+id/editText7"
+           android:layout_below="@+id/editText7"
+           android:layout_gravity="left"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="40dp"
+           android:button="@android:drawable/alert_light_frame"
+           android:duplicateParentState="false"
+           android:text="Electrical"
+           android:textColor="#ffffff"
+           android:textSize="25sp"
+
+           />
+
+       <CheckBox
+           android:id="@+id/check3Box"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="40dp"
+           android:layout_alignLeft="@+id/editText7"
+           android:layout_alignStart="@+id/editText7"
+           android:layout_below="@+id/editText7"
+           android:layout_gravity="left"
+           android:layout_marginTop="5dp"
+           android:button="@android:drawable/alert_light_frame"
+           android:duplicateParentState="false"
+           android:text="Electronics "
+           android:textColor="#ffffff"
+           android:textSize="25sp"
+
+           />
+
+       <CheckBox
+           android:id="@+id/check4Box"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/editText7"
+           android:layout_alignStart="@+id/editText7"
+           android:layout_below="@+id/editText7"
+           android:layout_gravity="left"
+           android:layout_marginTop="5dp"
+           android:button="@android:drawable/alert_light_frame"
+           android:duplicateParentState="false"
+           android:onClick="next8page"
+           android:text="civil"
+           android:layout_marginLeft="40dp"
+           android:textColor="#ffffff"
+           android:textSize="25sp"
+
+           />
+
+       <CheckBox
+           android:id="@+id/check5Box"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/editText7"
+           android:layout_alignStart="@+id/editText7"
+           android:layout_below="@+id/editText7"
+           android:layout_gravity="left"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="40dp"
+           android:button="@android:drawable/alert_light_frame"
+           android:duplicateParentState="false"
+           android:onClick="next9page"
+           android:text="Mechanical"
+           android:textColor="#ffffff"
+           android:textSize="25sp"
+
+           />
+
+       <CheckBox
+           android:id="@+id/check6Box"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/editText7"
+           android:layout_alignStart="@+id/editText7"
+           android:layout_below="@+id/editText7"
+           android:layout_gravity="left"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="40dp"
+           android:button="@android:drawable/alert_light_frame"
+           android:duplicateParentState="false"
+           android:text="Chemical"
+           android:textColor="#ffffff"
+           android:textSize="25sp"
+
+           />
+
+</LinearLayout>
+</ScrollView>
